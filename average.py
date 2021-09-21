@@ -13,4 +13,7 @@ Final = float(input("Finals: "))
 sum = Prelim + Midterm + Semifinal + Final
 avg = sum/4
 
-print ("Your Average is {}." .format(avg))
+if avg>=75 and avg<=100:
+	print ("Your Average is {}" .format(avg) + " and you PASSED. You did great Job!")
+else:
+	print ("Your Average is {}" .format(avg) + " and you FAILED. Focus on your studies!")
